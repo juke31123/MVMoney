@@ -60,7 +60,7 @@
 ## 🚀 Installation
 
 1. Install [AutoHotkeyV2](https://www.autohotkey.com/v2/)
-2. Download the AutoHotkey Script
+2. Download the AutoHotkey Script from the Release tab
 3. Run the Script
 
 
