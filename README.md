@@ -52,9 +52,8 @@
 ### 🛒 Buy All Upgrades
 - **Hotkey:** `F8`  
 - **Description:**  
-  Purchases all available upgrades in the MvM shop (from left to right).
+  Purchases all available upgrades in the MvM shop (from left to right).  
   ⚠️ Works for all classes **except Engineer**.
-
 ---
 
 ## 🚀 Installation
