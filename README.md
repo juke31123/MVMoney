@@ -9,14 +9,14 @@
 ### 💰 MvM Money Dupe
 - **Hotkey:** `R`  
 - **Description:**  
-  Automates shop interactions to efficiently perform the money dupe in MvM mode.
+  Automates shop interactions to efficiently perform the [Money Dupe](https://www.youtube.com/watch?v=CRtzgCewd3c) in MvM mode. 
 
 ---
 
 ### ⚡ Auto Crit Buy
 - **Hotkey:** `Q`  
 - **Description:**  
-  Automatically purchases Crit Canteens in MvM mode.
+  Automatically purchases Crit Canteens when the Shop Menu is open.
 
 ---
 
@@ -53,6 +53,7 @@
 - **Hotkey:** `F8`  
 - **Description:**  
   Purchases all available upgrades in the MvM shop (from left to right).
+  ⚠️ Works for all classes **except Engineer**.
 
 ---
 
