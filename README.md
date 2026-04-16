@@ -63,5 +63,9 @@
 2. Download the AutoHotkey Script from the Release tab
 3. Run the Script
 
+---
 
+### ⚠️ Safety 
+- **Disclaimer:**  
+  This Script only interacts with the Game throuh keyboard and mouse input. Ban Risk should be minimal but never 0.
 
