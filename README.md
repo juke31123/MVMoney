@@ -9,7 +9,8 @@
 ### 💰 MvM Money Dupe
 - **Hotkey:** `R`  
 - **Description:**  
-  Automates shop interactions to efficiently perform the [Money Dupe](https://www.youtube.com/watch?v=CRtzgCewd3c) in MvM mode. 
+  Automates shop interactions to efficiently perform the [Money Dupe](https://www.youtube.com/watch?v=CRtzgCewd3c) in MvM mode.
+  Walk in to the Shop while facing it with a rough 90 degree angel.
 
 ---
 
