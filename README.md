@@ -45,9 +45,13 @@
 
 ## 🚀 Installation
 
+Method 1:
 1. Install [AutoHotkeyV2](https://www.autohotkey.com/v2/)
 2. Download the AutoHotkey Script from the Release tab
 3. Run the Script
+
+Method 2:
+1. Download and Run the .exe (the exe is only the AHK converted into an AHK)
 
 ---
 
