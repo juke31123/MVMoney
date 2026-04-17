@@ -29,10 +29,19 @@
 ---
 
 ### 🛡️ Buy Resistances
-- **Hotkey:** `F7`  
+- **Hotkey:** `F6`  
 - **Description:**  
   Automatically purchases all resistance and movement upgrades in the MvM shop.  
   ⚠️ Works for all classes **except Engineer**.
+
+---
+
+### 🗡️ Buy Secondary Weapon
+- **Hotkey:** `F7`  
+- **Description:**  
+  Automatically purchases all Secondary Weapon upgrades in the MvM shop.  
+  ⚠️ Works for all classes **except Engineer**.
+
 
 ---
 
