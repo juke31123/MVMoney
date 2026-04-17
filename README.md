@@ -60,7 +60,7 @@ Method 1:
 3. Run the Script
 
 Method 2:
-1. Download and Run the .exe (the exe is only the AHK converted into an AHK)
+1. Download and Run the .exe (the exe is only the AHK converted into an exe)
 
 ---
 
