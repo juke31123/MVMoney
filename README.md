@@ -1,6 +1,6 @@
 # MVMoney
 
-**MVMoney** is an AutoHotkey (AHK) script that provides useful features for semi-automated gameplay in the *Mann vs Machine (MvM)* mode of Team Fortress 2.
+**MVMoney** is an AutoHotkey (AHK) script that provides useful features for semi-automated gameplay in the *Mann vs Machine (MvM)* mode of Team Fortress 2. If you wind bugs just create an issue on the github.
 
 ## ⚠️ Safety 
 - **Disclaimer:**  
@@ -69,7 +69,7 @@
   
 ---
 
-## 🚀 Installation
+## ⚙️ Installation
 
 Method 1:
 1. Install [AutoHotkeyV2](https://www.autohotkey.com/v2/)
@@ -78,6 +78,17 @@ Method 1:
 
 Method 2:
 1. Download and Run the .exe (the exe is only the AHK converted into an exe)
+
+---
+## 🚀 Roadmap
+
+**Planned Features:**
+- Indicator for if the script is active
+- Rebindable Hotkeys
+- Ui to disable and enable Macros for specific classes
+- Detection for the Shop menu being open
+- Adjustable delay
+- Auto Queue and detection of finding a match
 
 ---
 
