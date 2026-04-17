@@ -4,7 +4,7 @@
 
 ## ⚠️ Safety 
 - **Disclaimer:**  
-  This Script only interacts with the Game throuh keyboard and mouse input. Ban Risk should be minimal but never 0.
+  This Script only interacts with the Game throuh keyboard and mouse input. Ban Risk should be minimal but never Zero. I am not responsible for you getting banned.
 
 
 ---
