@@ -1,4 +1,4 @@
-﻿
+﻿;This Script can only do the money dupe. it is very old and might not work with AHK v2
 
 f2::
 click, 850 250
