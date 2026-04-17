@@ -4,25 +4,36 @@ ShopTabs := [[500, 266],[691, 259],[848, 257],[1009, 259]]
 upgradespalten := [1081, 1443]
 upgradereihen := [350, 480, 585, 690]
 
+firstrun := true
 
 +r::{ ;money dupe
+
+global firstrun
+
 click 850, 250, "Left" ;clicking the upgrade tab for the vac
 sleep 15
+
+
+if (firstrun != true){
 click 1079, 360, "Left" ;clicking the + of the übercharge upgrade
 sleep 15
 click 2
-sleep 15
+sleep 10
 click 1080, 419, "Left" ; clicking the - of the übercharge upgrade
 sleep 15
 click 2
 sleep 15
+}
 
-
+if (firstrun = true)
+{
+firstrun := false
+}
 
 click 1079, 360, "Left"
 sleep 15
 click 2
-sleep 15
+sleep 10
 send "{s down}"
 sleep 359
 send "{s up}"
@@ -32,9 +43,9 @@ send "{w up}"
 sleep 50
 click 850, 250, "Left"
 sleep 15
-click 1080, 419, "Left"
-sleep 15
-click 2
+click 1080, 419
+sleep 10
+click
 sleep 15
 click 631, 850, "Left" ;clicking the refund button
 sleep 15
