@@ -7,7 +7,7 @@
 ## ⚙️ Features
 
 ### 💰 MvM Money Dupe
-- **Hotkey:** `R`  
+- **Hotkey:** `Shift + R`  
 - **Description:**  
   Automates shop interactions to efficiently perform the [Money Dupe](https://www.youtube.com/watch?v=CRtzgCewd3c) in MvM mode.
   Walk in to the Shop while facing it with a rough 90 degree angel.
@@ -15,23 +15,9 @@
 ---
 
 ### ⚡ Auto Crit Buy
-- **Hotkey:** `Q`  
+- **Hotkey:** `Shift + Q`  
 - **Description:**  
   Automatically purchases Crit Canteens when the Shop Menu is open.
-
----
-
-### ⏸️ Pause
-- **Hotkey:** `F1`  
-- **Description:**  
-  Pauses all script functions and hotkeys.
-
----
-
-### 🔄 Reset
-- **Hotkey:** `F2`  
-- **Description:**  
-  Resets the script to its default settings.
 
 ---
 
