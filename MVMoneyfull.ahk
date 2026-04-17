@@ -1,67 +1,62 @@
+﻿#Requires AutoHotkey v2.0
+
 ShopTabs := [[500, 266],[691, 259],[848, 257],[1009, 259]]
 upgradespalten := [1081, 1443]
 upgradereihen := [350, 480, 585, 690]
 
-r::{ ;money dupe
 
-firstrun := true
++r::{ ;money dupe
+click 850, 250, "Left" ;clicking the upgrade tab for the vac
+sleep 15
+click 1079, 360, "Left" ;clicking the + of the übercharge upgrade
+sleep 15
+click 2
+sleep 15
+click 1080, 419, "Left" ; clicking the - of the übercharge upgrade
+sleep 15
+click 2
+sleep 15
 
-if(firstrun != true)
-{
-click 850, 250 ;clicking the upgrade tab for the quick fix
-click 1079, 360 ;clicking the + of the übercharge upgrade
-click 1079, 360
-click 1080, 419 ; clicking the - of the übercharge upgrade
-click 1080, 419
-}
 
-if(firstrun = true)
-{
-click 850, 250 
 
-firstrun := false
-}
-
-click 1079, 360
-click 1079, 360
+click 1079, 360, "Left"
+sleep 15
+click 2
+sleep 15
 send "{s down}"
-sleep 400
+sleep 359
 send "{s up}"
 send "{w down}"
-sleep 500
+sleep 450
 send "{w up}"
 sleep 50
-click 850, 250
-click 1080, 419
-click 1080, 419
-click 631, 850 ;clicking the refund button
+click 850, 250, "Left"
+sleep 15
+click 1080, 419, "Left"
+sleep 15
+click 2
+sleep 15
+click 631, 850, "Left" ;clicking the refund button
+sleep 15
+click 2
 return
 }
 
-f2::
++q:: ;quick buy crits
 {
-;reset 
-firstrun := true
-return
-} 
-
-f1:: ;pauses exicution
-{
-Suspend
-Return 
-} 
-
-q:: ;quick buy crits
-{
-click 1200, 300
-click 1089, 360
-sleep 10
+click 1167, 277, "Left"
+sleep 15
+click 1079, 370, "Left"
+sleep 15
 click 2
-sleep 10
-click 1378 852
-return
+sleep 5
+click 2
+sleep 15
+click 1402, 856, "Left"
+sleep 5
+click 2
+Return
 } 
-
 
 
 f7:: ;Buy Resistances
@@ -80,8 +75,7 @@ click 500, 266
         }
     }
 	sleep 25
-    click 1378, 852
-	click 1378, 852
+	click 1378, 852, "Left"
     return
 }
 
@@ -104,8 +98,7 @@ F8:: ;Buy ALL
         }
     }
 	sleep 25
-    click 1378, 852
-	click 1378, 852
+	click 1378, 852, "Left"
     return
 }
 
