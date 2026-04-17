@@ -2,6 +2,11 @@
 
 **MVMoney** is an AutoHotkey (AHK) script that provides useful features for semi-automated gameplay in the *Mann vs Machine (MvM)* mode of Team Fortress 2.
 
+## ⚠️ Safety 
+- **Disclaimer:**  
+  This Script only interacts with the Game throuh keyboard and mouse input. Ban Risk should be minimal but never 0.
+
+
 ---
 
 ## ⚙️ Features
@@ -76,7 +81,5 @@ Method 2:
 
 ---
 
-### ⚠️ Safety 
-- **Disclaimer:**  
-  This Script only interacts with the Game throuh keyboard and mouse input. Ban Risk should be minimal but never 0.
+
 
