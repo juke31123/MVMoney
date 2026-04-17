@@ -70,13 +70,31 @@ Return
 } 
 
 
-f7:: ;Buy Resistances
+f6:: ;Buy Resistances
 {
-click 500, 266
+click 500, 266, "left"
     for _, x in upgradeSpalten {
         for _, y in upgradeReihen {
             if(x = 1443 && y = 480)
             continue
+
+            Click x, y, "Left" ; Alle Upgrade-Kombinationen klicken
+			sleep 15
+            Click 2
+			sleep 15
+            Click 2
+        }
+    }
+	sleep 25
+	click 1378, 852, "Left"
+    return
+}
+
+f7:: ;Buy secondary weapon
+{
+click 850, 250, "Left"
+    for _, x in upgradeSpalten {
+        for _, y in upgradeReihen {
 
             Click x, y, "Left" ; Alle Upgrade-Kombinationen klicken
 			sleep 15
