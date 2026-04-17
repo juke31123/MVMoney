@@ -42,7 +42,6 @@
   Automatically purchases all Secondary Weapon upgrades in the MvM shop.  
   ⚠️ Works for all classes **except Engineer**.
 
-
 ---
 
 ### 🛒 Buy All Upgrades
@@ -50,6 +49,19 @@
 - **Description:**  
   Purchases all available upgrades in the MvM shop (from left to right).  
   ⚠️ Works for all classes **except Engineer**.
+
+---
+
+### 🔧 Buy Engineer Upgrades
+- **Hotkey:**
+- Buy All Engineer Upgrades: `F1`
+- Buy All Sentry Upgrades: `F2`
+- Buy All Engineer Resistances: `F3`
+- Quick Buy Engineer Canteens: `F4`
+- **Description:**  
+  Purchases The Upgrades but for engineer. They need to be seperate because the Shop layout is different.  
+
+  
 ---
 
 ## 🚀 Installation
