@@ -38,10 +38,10 @@ sleep 15
 click 2
 sleep 10
 send "{s down}"
-sleep 359
+sleep 450
 send "{s up}"
 send "{w down}"
-sleep 450
+sleep 550
 send "{w up}"
 sleep 50
 click 850, 250, "Left"
@@ -72,7 +72,7 @@ click 2
 Return
 } 
 
-f4:: ;Buy Building canteen
+f5:: ;Buy Building canteen
 {
 click 1351, 263, "left"
 sleep 15
