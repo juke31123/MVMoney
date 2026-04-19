@@ -62,7 +62,7 @@
 - Buy All Engineer Upgrades: `F1`
 - Buy All Sentry Upgrades: `F2`
 - Buy All Engineer Resistances: `F3`
-- Quick Buy Engineer Canteens: `F4`
+- Quick Buy Engineer Canteens: `F5`
 - **Description:**  
   Purchases The Upgrades but for engineer. They need to be seperate because the Shop layout is different.  
 
