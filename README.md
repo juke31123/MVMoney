@@ -22,7 +22,6 @@
 ### ⚡ Auto Crit Buy
 - **Hotkey:** `Shift + Q`  
 - **Description:**  
-  Automatically purchases Crit Canteens when the Shop Menu is open.
 
 ---
 
@@ -33,39 +32,15 @@
 
 ---
 
-### 🛡️ Buy Resistances
-- **Hotkey:** `F6`  
+### ⬆️ Buy Upgrades
+- **Buy Resistance:** `F6`
+- **Buy Primary:** `F7`
+- **Buy Secondary:** `F8`
+- **Buy Melee:** `F9`
+- **Buy Sentry:** `F1`
+- **Buy Engineer Canteen:** `F2`
 - **Description:**  
-  Automatically purchases all resistance and movement upgrades in the MvM shop.  
-  ⚠️ Works for all classes **except Engineer**.
-
----
-
-### 🗡️ Buy Secondary Weapon
-- **Hotkey:** `F7`  
-- **Description:**  
-  Automatically purchases all Secondary Weapon upgrades in the MvM shop.  
-  ⚠️ Works for all classes **except Engineer**.
-
----
-
-### 🛒 Buy All Upgrades
-- **Hotkey:** `F8`  
-- **Description:**  
-  Purchases all available upgrades in the MvM shop (from left to right).  
-  ⚠️ Works for all classes **except Engineer**.
-
----
-
-### 🔧 Buy Engineer Upgrades
-- **Hotkey:**
-- Buy All Engineer Upgrades: `F1`
-- Buy All Sentry Upgrades: `F2`
-- Buy All Engineer Resistances: `F3`
-- Quick Buy Engineer Canteens: `F5`
-- **Description:**  
-  Purchases The Upgrades but for engineer. They need to be seperate because the Shop layout is different.  
-
+  Automatically purchases all upgrades in the MvM shop.  
   
 ---
 
@@ -81,7 +56,6 @@ Method 1:
 ## 🚀 Roadmap
 
 **Planned Features:**
-- support for more window sizes
 - Indicator for if the script is active
 - Rebindable Hotkeys
 - Ui to disable and enable Macros for specific classes
