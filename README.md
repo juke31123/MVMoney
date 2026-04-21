@@ -76,13 +76,12 @@ Method 1:
 2. Download the AutoHotkey Script from the Release tab
 3. Run the Script
 
-Method 2:
-1. Download and Run the .exe (the exe is only the AHK converted into an exe)
 
 ---
 ## 🚀 Roadmap
 
 **Planned Features:**
+- support for more window sizes
 - Indicator for if the script is active
 - Rebindable Hotkeys
 - Ui to disable and enable Macros for specific classes
