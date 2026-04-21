@@ -14,7 +14,7 @@
 ###  INFO
 - **Important:**
   The Script Will Work at any Screen resoultion.
-  To use the Money Dupe you need the Ghost_Upgrade.vpk in you tf/custom folder, you can get it via the linked video.
+  To use the Money Dupe you need the Ghost_Upgrade.vpk in your tf/custom folder, you can get it via the linked video.
 
 ### 💰 MvM Money Dupe
 - **Hotkey:** `Shift + R`  
