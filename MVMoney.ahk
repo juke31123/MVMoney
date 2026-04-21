@@ -1,11 +1,11 @@
 ﻿#Requires AutoHotkey v2.0
 
-ShopTabs := [[500, 266],[691, 259],[848, 257],[1009, 259]]
-EngiShopTabs :=[[1170,260],[537,256],[677,255],[834,259],[1020,258]]
-upgradespalten := [1081, 1443]
-Engiupgradespalten := [1443, 1081]
-upgradereihen := [350, 480, 585, 690]
-Engiupgradereihen := [585, 350, 480, 690]
+;ShopTabs := [[500, 266],[691, 259],[848, 257],[1009, 259]]
+;EngiShopTabs :=[[1170,260],[537,256],[677,255],[834,259],[1020,258]]
+;upgradespalten := [1081, 1443]
+;Engiupgradespalten := [1443, 1081]
+;upgradereihen := [350, 480, 585, 690]
+;Engiupgradereihen := [585, 350, 480, 690]
 
 
 
