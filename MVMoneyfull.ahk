@@ -1,4 +1,5 @@
 ﻿#Requires AutoHotkey v2.0
+CoordMode "Mouse", "Window"
 
 ShopTabs := [[500, 266],[691, 259],[848, 257],[1009, 259]]
 EngiShopTabs :=[[1170,260],[537,256],[677,255],[834,259],[1020,258]]
