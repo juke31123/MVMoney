@@ -27,6 +27,7 @@
 ### ⚡ Auto Crit Buy
 - **Hotkey:** `Shift + Q`  
 - **Description:**  
+Auto buys Critcanteens.
 
 ---
 
