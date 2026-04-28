@@ -29,10 +29,12 @@
 - **Hotkey:** `Shift + Q`  
 - **Description:**  
 Auto buys Critcanteens.
+
 **Uber Canteens**
 - **Hotkey:** `Ctrl + Q`  
 - **Description:**  
 Auto buys Uber Canteens.
+
 **Building Upgrade Canteens**
 - **Hotkey:** `F2`  
 - **Description:**  
