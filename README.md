@@ -50,6 +50,13 @@ Auto buys Building Upgrade Canteens For Engineer Only.
   
 ---
 
+### ⚰️ Medic Quick Revive
+- **Hotkey:** `Shift + N`  
+- **Description:**  
+  Spams Left Click to Revive Dead Teammates Faster (Works Better on Lower Ping).
+
+---
+
 ### ❌ Force Close
 - **Hotkey:** `F12`  
 - **Description:**  
