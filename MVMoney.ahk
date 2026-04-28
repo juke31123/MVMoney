@@ -1,11 +1,11 @@
 ﻿#Requires AutoHotkey v2.0
 
-;ShopTabs := [[500, 266],[691, 259],[848, 257],[1009, 259]]
-;EngiShopTabs :=[[1170,260],[537,256],[677,255],[834,259],[1020,258]]
-;upgradespalten := [1081, 1443]
-;Engiupgradespalten := [1443, 1081]
-;upgradereihen := [350, 480, 585, 690]
-;Engiupgradereihen := [585, 350, 480, 690]
+ShopTabs := [[500, 266],[691, 259],[848, 257],[1009, 259]]
+EngiShopTabs :=[[1170,260],[537,256],[677,255],[834,259],[1020,258]]
+upgradespalten := [1081, 1443]
+Engiupgradespalten := [1443, 1081]
+upgradereihen := [350, 480, 585, 690]
+Engiupgradereihen := [585, 350, 480, 690]
 
 
 
@@ -66,11 +66,17 @@ sleep 15
 ClickRel(Shopx[1], Shopyminus[1])
 sleep 10
 click
-sleep 15
+sleep 25
 ClickRel(0.3453, 0.79) ;clicking the refund button
-sleep 15
-click 2
 return
+}
+
++n:: ;Quick Revive Medic (beta)
+{
+sleep 200
+click
+sleep 25
+click
 }
 
 +q:: ;quick buy crits
@@ -78,6 +84,18 @@ return
 ClickRel(ShopRelx[5], ShopRely[1])
 sleep 15
 ClickRel(Shopx[1], Shopyplus[1])
+sleep 15
+click 2
+sleep 20
+ClickRel(0.7453, 0.79)
+Return
+} 
+
+^q:: ;quick Buy Uber
+{
+ClickRel(ShopRelx[5], ShopRely[1])
+sleep 15
+ClickRel(Shopx[2], Shopyplus[1])
 sleep 15
 click 2
 sleep 20
