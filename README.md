@@ -62,11 +62,11 @@ Auto buys Building Upgrade Canteens For Engineer Only.
 ### ❌ Force Close
 - **Hotkey:** `F12`  
 - **Description:**  
-  Immediately terminates the script.
-### ❌ Toggle Gui
+  Immediately terminates the script (cant be Changed).
+### ⬇️ Toggle Gui
 - **Hotkey:** `F11`  
 - **Description:**  
- Toggle the Gui on and off.  
+ Toggle the Gui on and off (cant be Changed).  
 
 ---
 
