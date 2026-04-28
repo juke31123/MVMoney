@@ -77,6 +77,7 @@ sleep 200
 click
 sleep 25
 click
+Return
 }
 
 +q:: ;quick buy crits
