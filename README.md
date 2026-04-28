@@ -6,35 +6,36 @@
 - **Disclaimer:**  
   This Script only interacts with the Game throuh keyboard and mouse input. Ban Risk should be minimal but never Zero. I am not responsible for you getting banned.
 
+##  INFO
+- **Important:**
+  The Script Will Work at any Screen resoultion.
 
 ---
 
 ## ⚙️ Features
-
-###  INFO
-- **Important:**
-  The Script Will Work at any Screen resoultion.
-  To use the Money Dupe you need the Ghost_Upgrade.vpk in your tf/custom folder, you can get it via the linked video.
 
 ### 💰 MvM Money Dupe
 - **Hotkey:** `Shift + R`  
 - **Description:**  
   Automates shop interactions to efficiently perform the [Money Dupe](https://www.youtube.com/watch?v=CRtzgCewd3c) in MvM mode.
   Walk in to the Shop while facing it with a rough 90 degree angel.
+  To use the Money Dupe you need the Ghost_Upgrade.vpk in your tf/custom folder, you can get it via the linked video.
 
 ---
 
-### ⚡ Auto Crit Buy
+### ⚡ Auto Canteens
+**Crit Canteens**
 - **Hotkey:** `Shift + Q`  
 - **Description:**  
 Auto buys Critcanteens.
-
----
-
-### ❌ Force Close
-- **Hotkey:** `F12`  
+**Uber Canteens**
+- **Hotkey:** `Ctrl + Q`  
 - **Description:**  
-  Immediately terminates the script.
+Auto buys Uber Canteens.
+**Building Upgrade Canteens**
+- **Hotkey:** `F2`  
+- **Description:**  
+Auto buys Building Upgrade Canteens For Engineer Only.
 
 ---
 
@@ -44,10 +45,16 @@ Auto buys Critcanteens.
 - **Buy Secondary:** `F8`
 - **Buy Melee:** `F9`
 - **Buy Sentry:** `F1`
-- **Buy Engineer Canteen:** `F2`
 - **Description:**  
   Automatically purchases all upgrades in the MvM shop.  
   
+---
+
+### ❌ Force Close
+- **Hotkey:** `F12`  
+- **Description:**  
+  Immediately terminates the script.
+
 ---
 
 ## ⚙️ Installation
