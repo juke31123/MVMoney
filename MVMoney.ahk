@@ -16,7 +16,8 @@ ShopRely := [0.25]
 
 delaymed := 100
 firstrun := true
-
+guiVisible := true
+row := 260
 ;+r::MoneyDupe()
 ;+n::QuickMedic()
 ;+q::QuickCrit()
@@ -85,9 +86,9 @@ MoneyDupe(*) { ;money dupe
 QuickMedic(*){  ;Quick Revive Medic (beta)
     delaymed := Medicslider.Value
     sleep delaymed
-    click
-    sleep 25
-    click
+    Click("Down")
+    sleep 50
+    Click("Up")
     return
 }
 
@@ -209,6 +210,8 @@ BuySentry(*){ ;Buy Sentry
 
 ;GUI Design
 myGui := Gui("Resize", "MVMoney Controls")
+myGui.BackColor := "333333"
+myGui.SetFont("cWhite")
 
 myGui.Add("Text", "x20 y10 w200", "Quick Medic Revive Delay")
 valueText := myGui.Add("Text", "x20 y30 w200", "Current: " delaymed " ms")
@@ -219,7 +222,7 @@ Medicpreset2 := myGui.Add("Button", "x20 y105 w200", "Preset 2 (Medium Ping): 25
 Medicpreset3 := myGui.Add("Button", "x20 y135 w200", "Preset 3 (High Ping): 400ms")
 
 myGui.Add("Text", "x20 y170 w200", "Custom Delay (50-500 ms):")
-Medicslider := myGui.Add("Slider", "x20 y195 w300 Range50-500 ToolTip", delaymed)
+Medicslider := myGui.Add("Slider", "x20 y195 w230 Range50-500 TickInterval50 ToolTip", delaymed)
 
 myGui.Add("Text", "x20 y235 w200", "Hotkeys:")
 
@@ -238,11 +241,17 @@ HotkeyList := Map(
     "BuySentry", "F1"
 )
 
-row := 260
+for name, key in HotkeyList {
+    try {
+        Hotkey(key, GetFunction(name), "On")
+    } catch as e {
+        MsgBox("Failed to register hotkey:`n" key "`n`n" e.Message)
+    }
+}
 
 for name, key in HotkeyList {
     myGui.Add("Text", "x20 y" row+3 " w130", name)
-    hkInput := myGui.Add("Hotkey", "x160 y" row " w120", key)
+    hkInput := myGui.Add("Hotkey", "x110 y" row " w120", key)
     hkInput.OnEvent("Change", UpdateHotkey.Bind(name))
     HotkeyInputs[name] := hkInput
     row += 30
@@ -272,7 +281,7 @@ Medicpreset3.OnEvent("Click", (*) => (
     valueText.Text := "Current: " delaymed " ms"
 ))
 
-myGui.Show("x0 y0 w350 h620")
+myGui.Show("x0 y0 w280 h580")
 return
 
 UpdateHotkey(name, hkInput, *) {
@@ -311,6 +320,40 @@ GetFunction(name) {
     }
 }
 
-f11::myGui.Show("x0 y0 w350 h200")
+F10::
+{
+    global Hotkey, GetFunction
+    for name, key in HotkeyList {
+    try {
+        Hotkey(key, GetFunction(name), "Off")
+    } catch as e {
+        MsgBox("Failed to register hotkey:`n" key "`n`n" e.Message)
+    }}
+    return
+}
+
++F10::
+{
+    global Hotkey, GetFunction
+    for name, key in HotkeyList {
+    try {
+        Hotkey(key, GetFunction(name), "On")
+    } catch as e {
+        MsgBox("Failed to register hotkey:`n" key "`n`n" e.Message)
+    }}
+    return
+}
+
+F11:: { ;Toggle Gui
+    global guiVisible, myGui
+
+    if (guiVisible) {
+        myGui.Hide()
+        guiVisible := false
+    } else {
+        myGui.Show("x0 y0 w280 h580")
+        guiVisible := true
+    }
+}
 
 f12::ExitApp
