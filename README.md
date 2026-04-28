@@ -9,6 +9,7 @@
 ##  INFO
 - **Important:**
   The Script Will Work at any Screen resoultion.
+  Hotkey Changes are not saved between Session.
 
 ---
 
@@ -54,6 +55,7 @@ Auto buys Building Upgrade Canteens For Engineer Only.
 - **Hotkey:** `Shift + N`  
 - **Description:**  
   Spams Left Click to Revive Dead Teammates Faster (Works Better on Lower Ping).
+  Delay can be Change in the Gui.
 
 ---
 
@@ -61,12 +63,15 @@ Auto buys Building Upgrade Canteens For Engineer Only.
 - **Hotkey:** `F12`  
 - **Description:**  
   Immediately terminates the script.
+### ❌ Toggle Gui
+- **Hotkey:** `F11`  
+- **Description:**  
+ Toggle the Gui on and off.  
 
 ---
 
 ## ⚙️ Installation
 
-Method 1:
 1. Install [AutoHotkeyV2](https://www.autohotkey.com/v2/)
 2. Download the AutoHotkey Script from the Release tab
 3. Run the Script
@@ -77,10 +82,9 @@ Method 1:
 
 **Planned Features:**
 - Indicator for if the script is active
-- Rebindable Hotkeys
 - Ui to disable and enable Macros for specific classes
 - Detection for the Shop menu being open
-- Adjustable delay
+- Adjustable delay (for clicks)
 - Auto Queue and detection of finding a match
 
 ---
